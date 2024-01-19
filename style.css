@@ -1,0 +1,78 @@
+.attribution{
+ font-size: 11px;
+ text-align: center;
+}
+.attribution a{
+ color: hsl(228, 45% 44%);
+}
+body { 
+ background-color: hsl(212, 45%, 89%);
+ font-family: 'Outfit', sans-serif;
+}
+/* .qr{
+ display: flex;
+ justify-content: center;
+} */
+/* .qr{
+ align-items: center;
+} */
+/* .qr{
+ align-content: center;
+} */
+/* .qr{
+ align-self: center;
+} */
+p{
+ text-align: center;
+ color: hsl(220, 15%, 55%); 
+ /* line-height: 1.0cm;
+ text-indent: -13%;
+ letter-spacing: 500%; */
+}
+h1{
+ text-align: center;
+ color: hsl(218, 44%, 22%);
+
+}
+.word{
+ line-height: 1.1cm;
+ letter-spacing: 13%;
+}
+/* .qr{
+ overflow: hidden;
+} */
+.qr{
+ padding: 1rem;
+}
+.qr img {
+ width: 100%;
+ border-radius: 5%;
+}
+.word p {
+ font-size: 25px;
+}
+.word {
+ font-size: 20px;
+}
+.container{
+ background-color: white;
+ padding: 1rem;
+ border-radius: 5%;
+ margin: auto;
+ width: max-content;
+ margin-top: 10%;
+ margin-bottom: 10%; 
+}
+ /* media screen */
+ @media screen and (max-width: 375px){
+  .container{
+   position: relative;
+   padding: 1rem;
+  }
+ }
+ @media screen and (max-width: 1440px){
+  .container{
+   position: relative;
+   padding: 1rem;
+  }
+ }
